@@ -1,0 +1,11 @@
+.upload{
+    width:100%;
+    background:#f4f5f7;
+    padding:1em;
+    border:1px solid #DEDEDE;
+    margin-bottom:1em;
+    overflow:auto;
+}
+.video_uploader video{
+    width:100%;
+}

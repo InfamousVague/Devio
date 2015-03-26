@@ -1,0 +1,38 @@
+.comments .comment .comment_content{
+    background:#f4f5f7;   
+    padding:1em;
+    border:1px solid #e0e2e6;
+}
+.comments .timestamp{
+    color:#cdcdcd;
+}
+.comments hr{
+    padding:0;
+    margin:.2em;
+}
+.comment_action{
+    float:right;
+    padding: .5em;
+}
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	position:absolute;
+	z-index:3;
+	left:-4px;
+	top:9px;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	border-right: 20px solid #f4f5f7;
+}
+.arrow-right_2 {
+	width: 0; 
+	height: 0; 
+	position:absolute;
+	z-index:2;
+	left:-6px;
+	top:8px;
+	border-top: 21px solid transparent;
+	border-bottom: 21px solid transparent;
+	border-right: 21px solid #e0e2e6;
+}

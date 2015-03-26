@@ -1,0 +1,49 @@
+@import url('info_block.css');
+@import url('header.css');
+@import url('comments.css');
+@import url('footer.css');
+@import url('related_videos.css');
+@import url('upload.css');
+
+#logo{
+    width:120px;   
+    margin-top:-.7em;
+}
+input{
+    outline:none;
+}
+
+._action{
+    border:none;
+    outline:none;
+    background:#334455;
+    color:#fff;
+    padding:.4em 1em;
+    border-radius:3px;
+    border:1px solid #000;
+}
+._action:hover{
+    background:#263340;
+}
+
+._action_ghost{
+    border:none;
+    outline:none;
+    background:transparent;
+    color:#334455;
+    padding:.35em 1em;
+    border-radius:3px;
+    border:2px solid #334455;
+    transition:background .3s ease-in-out, color .3s ease-in-out;
+}
+._action_ghost:hover{
+    border:none;
+    outline:none;
+    background:#334455;
+    color:#fff;
+    border-radius:3px;
+    border:2px solid #334455;
+}
+._action_ghost:active{
+    background:#263340;
+}
